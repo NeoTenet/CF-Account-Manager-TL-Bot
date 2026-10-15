@@ -108,9 +108,9 @@ async def show_main_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
         text = (
             "🔑 <b>ورود به ربات آپلود خودکار ورکر:</b>\n\n"
-            "۱️⃣ روی دکمه زیر بزنید و قالب <b>Edit Cloudflare Workers</b> را بسازید.\n"
-            "۲️⃣ بخش‌های <b>Account</b> و <b>Zone</b> را روی <b>All</b> بگذارید تا ارور ندهد.\n"
-            "۳️⃣ کلید ساخته‌شده را کپی کنید و همین‌جا بفرستید:\n\n"
+            "1️⃣ روی دکمه زیر بزنید و قالب <b>Edit Cloudflare Workers</b> را بسازید.\n"
+            "2️⃣ بخش‌های <b>Account</b> و <b>Zone</b> را روی <b>All</b> بگذارید تا ارور ندهد.\n"
+            "3️⃣ کلید ساخته‌شده را کپی کنید و همین‌جا بفرستید:\n\n"
             "👇 <i>لطفاً کلید (API Token) کلودفلرتان را بفرستید:</i>"
         )
         await send_or_edit(update, text, InlineKeyboardMarkup(keyboard))
